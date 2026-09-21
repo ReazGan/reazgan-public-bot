@@ -1,11 +1,6 @@
 /*
- * Nöbetçi — örnek komut (tanıtım amaçlı)
- * geliştirici: reazgan · github.com/ReazGan
- *
- * Bu, botun kod stilini göstermek için paylaşılan GÜVENLİ bir örnektir.
- * Koruma, web paneli ve çok-bot gibi çekirdek mantık bu depoda yer almaz.
- *
- * Tek bir komut tanımı; hem "/avatar" hem "!avatar" olarak çalışır.
+ * Nöbetçi · github.com/ReazGan
+ * Tek tanım; hem /avatar hem !avatar olarak çalışır.
  */
 import { COLOR, embed } from '../lib/embeds';
 import type { HybridCommand } from '../types';
