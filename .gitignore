@@ -1,0 +1,15 @@
+# Bu bir VİTRİN (tanıtım) deposudur. Gerçek bot kaynağı / gizli dosya ASLA girmez.
+.env
+.env.*
+node_modules/
+dist/
+data/
+*.db
+*.sqlite*
+*.log
+.DS_Store
+
+# Yanlışlıkla ürün kopyası/paketi eklenmesin:
+reazgan-public-bot/
+ReazganPublicBot/
+*.zip
