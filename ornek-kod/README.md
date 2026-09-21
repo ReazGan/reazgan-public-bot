@@ -1,19 +1,10 @@
 # Örnek kod
 
-Bu klasör, botun **kod kalitesini ve mimarisini** göstermek için paylaşılan
-küçük, güvenli örnekler içerir. Botun tam kaynak kodu **satışa/kiralamaya
-özeldir ve bu depoda yer almaz.**
+Botun kod stilini gösteren küçük örnekler. Tam kaynak kod bu depoda değil.
 
-| Dosya | Ne gösterir |
-|---|---|
-| [`hybrid-command.ts`](hybrid-command.ts) | Slash (`/`) + ön ek (`!`) komutlarını tek yerde birleştiren `Ctx` mimarisi |
-| [`avatar.ts`](avatar.ts) | Bu mimariyi kullanan gerçek, çalışan bir komut örneği |
+- [`hybrid-command.ts`](hybrid-command.ts) — slash (`/`) ve ön ek (`!`) komutlarını tek yerde toplayan `ctx` yapısı
+- [`avatar.ts`](avatar.ts) — bu yapıyı kullanan gerçek bir komut
 
-Bilinçli olarak **paylaşılmayanlar:** anti-raid/anti-nuke koruma motoru,
-web kontrol paneli, çok-bot (Capella tarzı) yönetimi, ekonomi/seviye ve
-veritabanı katmanı. Bunlar ürünün değerli kısmıdır ve teslim edilen
-kaynak kodunda bulunur.
+Koruma motoru, web paneli, çok-bot yönetimi ve veritabanı katmanı burada yok.
 
-> Kod, TypeScript + discord.js 14 ile yazılmıştır; dış servis bağımlılığı
-> yoktur (yerel `better-sqlite3`). Tam sürümü görmek/denemek için:
-> Discord https://discord.gg/azt · DM `reazgan0511`
+TypeScript + discord.js 14, dış servis bağımlılığı yok. İletişim: https://discord.gg/azt · DM `reazgan0511`
