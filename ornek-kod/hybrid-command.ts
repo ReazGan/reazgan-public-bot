@@ -1,10 +1,9 @@
 /*
- * Nöbetçi — mimari örneği (tanıtım amaçlı, kısaltılmış)
- * geliştirici: reazgan · github.com/ReazGan
+ * Nöbetçi · github.com/ReazGan
  *
- * Botun tamamı bu "hibrit komut" soyutlaması üzerine kurulu:
- * bir komutu bir kere yazarsın, hem slash (/) hem ön ek (!) olarak çalışır.
- * Argümanları iki tarafta da aynı `ctx` üzerinden okursun; kod tekrarı olmaz.
+ * Hibrit komut yapısı: bir komutu bir kere yazarsın, hem slash (/) hem
+ * ön ek (!) olarak çalışır. Argümanları iki tarafta da aynı `ctx`
+ * üzerinden okursun, kod tekrarı olmaz.
  */
 import type { Guild, GuildMember, Role, User } from 'discord.js';
 
@@ -51,8 +50,4 @@ export interface HybridCommand {
   run(ctx: Ctx): Promise<unknown>;
 }
 
-/*
- * Örnek: yukarıdaki tipi kullanan gerçek bir komut için bkz. avatar.ts
- * Not: Bu dosya kısaltılmış bir örnektir; tam tip tanımları ve komut
- * yönlendiricisi (router) satın alınan kaynak kodunda yer alır.
- */
+// Bu tipi kullanan gerçek bir komut için: avatar.ts
